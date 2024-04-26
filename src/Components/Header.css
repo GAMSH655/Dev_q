@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    pad: 10px;
+}
+.logoText{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.linkContainer{
+    text-decoration: none;
+    color: black;
+}
+.headerLink{
+    margin: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}

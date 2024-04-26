@@ -1,12 +1,19 @@
-
+import "../Components/Header.css"
 import React from 'react'
 
 const Header= () => {
   return (
     <div>
-       <h3 className="logoText">
-         jjjj
+        <div className="headerContainer">
+        <h3 className="logoText">
+          quadri
        </h3>
+        <div className="linkContainer">
+            <a href="#" className="headerLink">about</a>
+            <a href="#" className="headerLink" >work</a>
+            <a href="#" className="headerLink">about</a>
+        </div>
+        </div>
     </div>
   )
 }
