@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import Header from '../src/Components/Header'
+import Home from '../src/Pages/Home'
 import { BrowserRouter , Route , Routes } from 'react-router-dom'
 function App() {
   return (
     <>
-      <Header/>
+      <Home/>
     </>
   )
 }

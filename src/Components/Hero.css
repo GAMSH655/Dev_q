@@ -1,0 +1,46 @@
+.Herodiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.prog{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
+.heroTextContainer{
+    padding: 50px;
+}
+.heroP{
+    font-weight: bolder;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.heroinfo{
+    margin-top: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px
+}
+.contactme{
+    /* width: 250rem; */
+    background-color:#D3E97A;
+    color: black;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    width: 200px;
+    pad: 10px;
+}
+.contactBtn{
+    background-color:#D3E97A;
+    color: black;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    pad: 10px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+}
