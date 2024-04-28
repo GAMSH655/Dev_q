@@ -1,0 +1,14 @@
+.Feature{
+    color: #f6f6f6;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.projP{
+    color: #f6f6f6;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 1.5rem;
+}

@@ -11,7 +11,7 @@ const Header= () => {
         <div className="linkContainer">
             <a href="#" className="headerLink">about</a>
             <a href="#" className="headerLink" >work</a>
-            <a href="#" className="headerLink">about</a>
+            <a href="#" className="headerLink" >about</a>
         </div>
         </div>
     </div>

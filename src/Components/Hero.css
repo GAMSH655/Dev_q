@@ -1,6 +1,7 @@
 .Herodiv{
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 2px solid  #484848;
 }
 .prog{
     width: 500px;
@@ -31,10 +32,11 @@
     outline: none;
     width: 170px;
     padding: 10px;
+    border-radius: 15px;
 }
 .contactBtn{
-    background-color:#D3E97A;
-    color: black;
+    background-color:black;
+    color: #D3E97A;
     margin-left: 10px;
     border: none;
     outline: none;
