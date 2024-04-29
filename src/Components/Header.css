@@ -4,6 +4,7 @@
     box-sizing: border-box;
     background-color:#0A0A0A;
     color: whitesmoke;
+    font-family: fira sans;
 }
 .headerContainer{
     display: flex;

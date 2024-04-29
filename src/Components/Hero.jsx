@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub  , FaLinkedin } from 'react-icons/fa'
 import { RiGithubFill } from "react-icons/ri";
-import Prog from "../assets/prog.png"
+import Prog from "../assets/dev.gif"
 import "./Hero.css"
 const Hero = () => {
   return (
