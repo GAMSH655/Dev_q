@@ -70,4 +70,29 @@
         width: 300px;
         padding: 20px;
     }
+    
+.contactme{
+    /* width: 250rem; */
+    background-color:#D3E97A;
+    color: black;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+.contactBtn{
+    background-color:black;
+    color: #D3E97A;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    pad: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin: 10px;
+}
 }
