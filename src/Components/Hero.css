@@ -47,7 +47,14 @@
     pad: 10px;
     font-size: 1.2rem;
     border-radius: 50%;
-} .heroImg{
+    transition: .5s all ease-in;
+} 
+.contactBtn:hover{
+    background-color: #D3E97A;
+    color: black;
+}
+
+.heroImg{
    width: 400px;
    height: 400px;
    padding: 30px;
