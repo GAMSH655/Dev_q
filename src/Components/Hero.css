@@ -47,6 +47,10 @@
     pad: 10px;
     font-size: 1.2rem;
     border-radius: 50%;
+} .heroImg{
+   width: 400px;
+   height: 400px;
+   padding: 30px;
 }
 @media  only screen and (max-width:768px) {
     .Herodiv{
