@@ -6,6 +6,9 @@
     font-family: sans-serif;
     padding: 20px;
 }
+.projectContainer{
+    padding-top: 20px;
+}
 .projP{
     color: #f6f6f6;
     padding: 5px;
@@ -21,6 +24,7 @@
     padding: 30px;
     font-family: Merriweather;
     width: 100%;
+    box-shadow: -2px 2px 2px 2px black;
 }
 .projImg{
     height: 300px;
@@ -79,7 +83,6 @@
         font-family: Merriweather;
         box-shadow: -2px 2px 2px 2px black;
          padding: 10px;
-         margin: 5px;
         /* width: 100%; */
     }
     .projImg{

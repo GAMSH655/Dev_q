@@ -27,3 +27,27 @@
     text-transform: capitalize;
     font-size: 1.2rem;
 }
+.mobileHeader{
+    display: none;
+}
+.openBtn{
+     width: 150px;
+     border: none;
+     outline: none;
+     font-size: 16px;
+}
+ @media  only screen and (max-width:768px) {
+    .linkContainer{
+        display: none;
+    }
+    .mobileHeader{
+        display: block;
+        text-align: center;
+    }
+    .mobniLink{
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1rem;
+        margin: 10px;
+    }
+ }
