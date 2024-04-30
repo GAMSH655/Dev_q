@@ -30,9 +30,9 @@ const Header= () => {
         <div className="mobileHeader">
          {
            openBtn && (
-            <div className="">
+            <div className="mobLinkCont">
             <a href="#" className="mobniLink">about</a>
-            <a href="#"  className="mobniLink"></a>
+            <a href="#"  className="mobniLink">quadri</a>
             <a href="#" className="mobniLink">about</a>
         </div>
            )
