@@ -6,7 +6,7 @@ import Star from "../Components/Star"
 const Project = () => {
 
   return (
-    <div>
+    <div className='projectParentcontainer'>
     <h3 className="Feature">featured projects</h3>
     <p className="projP">
     Here are some of the selected projects that showcase my passion for front-end development.
@@ -85,8 +85,17 @@ const Project = () => {
              </div>
          </div>
      </div>
-      <div className="aboutCont">
-         <h3 className="about">about me</h3>
+      
+      <div className="about">
+         <h3 className="aboutM"> about  me</h3>
+         <div className="aboutTextBox">
+               <h3 className="abtH">
+               I am a front-end developer based in Sydney. Has Mechanical Engineering background. 
+               </h3>
+            <p className="aboutP">
+            am a front-end developer based in Sydney looking for exciting opportunities. Has Mechanical Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to improve skill.
+            </p>
+         </div>
       </div>
    </div>
   )

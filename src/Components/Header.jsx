@@ -22,7 +22,7 @@ const Header= () => {
         </div>
          <button className="openBtn" onClick={handleOpenNav}>
           {
-             openBtn ? <FaBars/> :  <FaTimes/> 
+             openBtn ? <FaTimes/>  :  <FaBars/>
           }
          </button>
         </div>

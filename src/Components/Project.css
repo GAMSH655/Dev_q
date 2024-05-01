@@ -6,8 +6,13 @@
     font-family: sans-serif;
     padding: 20px;
 }
+.projectParentcontainer{
+    border-bottom: 1.5px solid rgb(83, 69, 69);
+    /* background-color: red; */
+}
 .projectContainer{
     padding-top: 20px;
+    border-bottom: 1.5px solid wheat;
 }
 .projP{
     color: #f6f6f6;
@@ -25,6 +30,7 @@
     font-family: Merriweather;
     width: 100%;
     box-shadow: -2px 2px 2px 2px black;
+    text-align: justify;
 }
 .projImg{
     height: 300px;
@@ -54,6 +60,27 @@
 }
 .prjLink:hover{
     border-bottom: 3px solid #D3E97A;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutTextBox{
+    width: 500px;
+    padding: 10px;
+}
+.abtH{
+    padding: 15px;
+    line-height: 30px;
+}
+.aboutP{
+  line-height: 30px;
+  padding: 15px;
+}
+.aboutM{
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 3rem;
 }
 @media only screen and (max-width:768px) {
     
@@ -114,4 +141,30 @@
     .prjLink:hover{
         border-bottom: 3px solid #D3E97A;
     }
+    
+.about{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.aboutTextBox{
+    width: 500px;
+    padding: 10px;
+}
+.abtH{
+    padding: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+.aboutP{
+  line-height: 30px;
+  padding: 15px;
+  line-break: normal;
+}
+.aboutM{
+    /* padding: 15px; */
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+}
 }
