@@ -30,9 +30,8 @@ const Header= () => {
          {
            openBtn && (
             <div className="mobLinkCont">
-            <a href="#" className="mobniLink">about</a>
-            <a href="#"  className="mobniLink">quadri</a>
-            <a href="#" className="mobniLink">about</a>
+            <NavLink to="/" className="mobniLink">home</NavLink>
+            <NavLink to="about" className="mobniLink">about</NavLink>
         </div>
            )
          }

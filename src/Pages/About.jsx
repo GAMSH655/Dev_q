@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Components/Header'
-import PortImg from "../assets/prog.png"
+import PortImg from "../assets/me.png"
 import '../Components/About.css'
 const About = () => {
   return (

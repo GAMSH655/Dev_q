@@ -4,5 +4,11 @@
     align-items: center;
 }
 .portImg{
-    width: 100%;
+    padding: 20px;
+     border-radius: 5rem;
+}
+@media only screen and (max-width:768px) {
+    .portImg{
+      width: 100%;
+    }
 }
