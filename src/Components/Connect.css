@@ -26,16 +26,20 @@
 }
 textarea{
     resize: none;
-    margin: 10px;
+    width: 100vh;
+    height: 50vh;
+    margin-top: 20px;
+    padding: 10px;
 }
 .inputname{
     font-weight: normal;
     text-transform: capitalize;
     font-size: medium;
 }
-.nameInput{
 
-}
+.nameInput{
+    margin: 10px;
+  }
 form {
     margin: 20px;
 }
