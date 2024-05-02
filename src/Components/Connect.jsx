@@ -5,9 +5,9 @@ const Connect = () => {
     <div className='ContParentContainer'>
         <div className="contactCont">
             <h3 className="let">Let’s connect</h3>
-            <h className="hello">
+            <h3 className="hello">
                 Say hello shittuabdquadri0@gmail.com
-            </h>
+            </h3>
             <div className="iconDiv">
             <a href="https://github.com/GAMSH655"> <i className="fa-brands fa-github  fa-2xl contact-icon"></i></a>
             <a href="https://www.linkedin.com/in/abdulquadri-shittu-59480b262/"> <i className="fa-brands fa-linkedin  fa-2xl contact-icon"></i></a>

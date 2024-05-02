@@ -16,9 +16,8 @@ const Header= () => {
           quadri
        </h3>
         <div className="linkContainer">
-            <a href="#" className="headerLink">about</a>
-            <a href="#" className="headerLink" >work</a>
-            <a href="#" className="headerLink" >about</a>
+        <NavLink  to="/" className="headerLink" >Home</NavLink>
+        <NavLink to="/about" className="headerLink">about</NavLink>
         </div>
          <button className="openBtn" onClick={handleOpenNav}>
           {

@@ -11,16 +11,16 @@ const Hero = () => {
              <h3 className="heroP">abdulquadri shittu abolore ,</h3>
              <p className="heroinfo">A Sydney based front-end developer passionate about building accessible and user friendly websites.</p>
              <button className="contactme">contact me 
-             <i class="fa-solid fa-file icon"></i>
+             <i className="fa-solid fa-file icon"></i>
               </button> 
              <button className='contactBtn'> 
              <a href="https://github.com/GAMSH655"> <i className="fa-brands fa-github icon"></i> </a></button>
             
              <button className='contactBtn'>
-             <a href="https://www.linkedin.com/in/abdulquadri-shittu-59480b262/" className='contctLink'><i class="fa-brands fa-linkedin icon"></i> </a>
+             <a href="https://www.linkedin.com/in/abdulquadri-shittu-59480b262/" className='contctLink'><i className="fa-brands fa-linkedin icon"></i> </a>
              </button>
          </div>
-         <img src={Prog} alt=""  className='prog' draggable="false" class="heroImg"/>
+         <img src={Prog} alt=""  draggable="false" className="heroImg"/>
     </div>
   )
 }

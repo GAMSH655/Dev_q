@@ -23,8 +23,8 @@ const Project = () => {
                 </p>
                 <div className="bottomInfo">
                   <div className="linkCont">
-                     <a href="https://e-commerce-nine-delta-43.vercel.app/" class='prjLink'> live view  <i class="fa-solid fa-link icon"></i></a>
-                     <a href="https://github.com/GAMSH655/E-commerce.git" class='prjLink'>repo link <i className="fa-brands fa-github icon"></i></a>
+                     <a href="https://e-commerce-nine-delta-43.vercel.app/" className='prjLink'> live view  <i className="fa-solid fa-link icon"></i></a>
+                     <a href="https://github.com/GAMSH655/E-commerce.git" className='prjLink'>repo link <i className="fa-brands fa-github icon"></i></a>
                   </div>
                   {/* <Star/> */}
               </div>
@@ -41,9 +41,9 @@ const Project = () => {
                 </p>
                 <div className="bottomInfo">
                   <div className="linkCont">
-                     <a href="https://new-crypto-dev.vercel.app/" class='prjLink'> live view  <i class="fa-solid fa-link icon"></i></a>
+                     <a href="https://new-crypto-dev.vercel.app/" className='prjLink'> live view  <i className="fa-solid fa-link icon"></i></a>
 
-                     <a href="https://github.com/GAMSH655/NFT-DEVELOPMENT.git" class='prjLink'>repo link <i className="fa-brands fa-github icon"></i></a>
+                     <a href="https://github.com/GAMSH655/NFT-DEVELOPMENT.git" className='prjLink'>repo link <i className="fa-brands fa-github icon"></i></a>
                   </div>
               </div>
              </div>
@@ -59,9 +59,9 @@ const Project = () => {
                 </p>
                 <div className="bottomInfo">
                   <div className="linkCont">
-                     <a href="https://e-commerce-nine-delta-43.vercel.app/" class='prjLink'> live view  <i class="fa-solid fa-link icon"></i></a>
+                     <a href="https://e-commerce-nine-delta-43.vercel.app/" className='prjLink'> live view  <i className="fa-solid fa-link icon"></i></a>
 
-                     <a href="https://github.com/GAMSH655/E-commerce.git" class='prjLink'>repo link <i className="fa-brands fa-github icon"></i></a>
+                     <a href="https://github.com/GAMSH655/E-commerce.git" className='prjLink'>repo link <i className="fa-brands fa-github icon"></i></a>
                   </div>
               </div>
              </div>
@@ -77,9 +77,9 @@ const Project = () => {
                 </p>
                 <div className="bottomInfo">
                   <div className="linkCont">
-                     <a href="https://e-commerce-nine-delta-43.vercel.app/" class='prjLink'> live view  <i class="fa-solid fa-link icon"></i></a>
+                     <a href="https://e-commerce-nine-delta-43.vercel.app/" className='prjLink'> live view  <i class="fa-solid fa-link icon"></i></a>
 
-                     <a href="https://github.com/GAMSH655/E-commerce.git" class='prjLink'>repo link <i className="fa-brands fa-github icon"></i></a>
+                     <a href="https://github.com/GAMSH655/E-commerce.git" className='prjLink'>repo link <i className="fa-brands fa-github icon"></i></a>
                   </div>
               </div>
              </div>
