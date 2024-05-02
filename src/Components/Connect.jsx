@@ -21,13 +21,13 @@ const Connect = () => {
             </div>
 
             <div className="nameInput">
-                <h3 className="inputname">name</h3>
+                <h3 className="inputname">email</h3>
                 <input type="mail" className='input' />
             </div>
 
             <div className="nameInput">
-                <h3 className="inputname">name</h3>
-                <input type="text" className='input' />
+                <h3 className="inputname">number</h3>
+                <input type="number" className='input' />
             </div>
             <textarea placeholder='enter your message'></textarea>
          </form>
