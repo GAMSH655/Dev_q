@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Components/Header'
+import Skill from "../Components/Skills"
 import PortImg from "../assets/me.png"
 import '../Components/About.css'
 const About = () => {
@@ -29,6 +30,7 @@ const About = () => {
        <div className="imgCont">
        <img src={PortImg} alt="" className='portImg' />
        </div>
+       <Skill/>
     </div>
   )
 }

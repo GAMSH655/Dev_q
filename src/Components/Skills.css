@@ -1,0 +1,45 @@
+
+.skillSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.skill_img{
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+}
+.capabillities{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.skill{
+   display: grid;
+   grid-template-columns: repeat(3 , 1fr);
+}
+@media only screen and (max-width:768px) {
+    .skillSection{
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .skill_img{
+        height: 80px;
+        width: 80px;
+        margin: 10px;
+    }
+    .capabillities{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+    } 
+    .skill{
+        margin-top: 20px;
+    }
+}
