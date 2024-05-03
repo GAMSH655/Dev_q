@@ -19,8 +19,11 @@ const Project = () => {
                     e-commerce 
                 </h3>
                 <p className="projInf">
-                amed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.
+                 Exclusive is an e-commerce website that is built purely on Reactjs , below are features implemented in the project.
                 </p>
+                <p  className='pInf'> 📌Implemented star  rating functionallity  which allows users to rate the goods.</p>
+                <p className='pInf'> 📌Users can easily add to cart and delete from cart and keep track of the goods using a react hook called useContext.</p>
+                <p className='pInf'> 📌 Users can easily route from page to another using implementing a react properties called react-router.</p>
                 <div className="bottomInfo">
                   <div className="linkCont">
                      <a href="https://e-commerce-nine-delta-43.vercel.app/" className='prjLink'> live view  <i className="fa-solid fa-link icon"></i></a>

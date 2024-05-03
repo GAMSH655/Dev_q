@@ -91,7 +91,7 @@
     margin-top: 50px;
     border: none;
     outline: none;
-    width: 190px;
+    width: 100px;
     padding: 10px;
     border-radius: 15px;
 }
@@ -104,7 +104,7 @@
     height: 40px;
     font-size: 1.2rem;
     border-radius: 10px;
-    margin-top: 45px;
+    /* margin-top: 45px; */
 }
 .heroP{
     font-weight: bolder;
@@ -113,8 +113,8 @@
     font-family: sans-serif;
 }
 .btnCont{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
   }
 }
