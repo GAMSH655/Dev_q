@@ -17,7 +17,7 @@ const About = () => {
             am a front-end developer looking for exciting opportunities. Has Computer Science background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs. While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to improve skill.
             </p>
             <button className="contactme">contact me 
-             <i className="fa-solid fa-file icon"></i>
+            <i class="fa-solid fa-paper-plane plane"></i>
               </button> 
              <button className='contactBtn'> 
              <a href="https://github.com/GAMSH655"> <i className="fa-brands fa-github icon"></i> </a></button>
