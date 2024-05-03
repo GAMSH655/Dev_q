@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Project.css"
-import Ecom from "../assets/ecom.jpg"
-import Head from "../assets/head.jpg"
+import Ecom from "../assets/ecom.png"
+import Crypto from "../assets/Crypto.png"
 import Star from "../Components/Star"
 const Project = () => {
 
@@ -31,7 +31,7 @@ const Project = () => {
              </div>
          </div>
          <div className="projBox1">
-             <img src={Head} alt=""  className='projImg' draggable="false"/>
+             <img src={Crypto} alt=""  className='projImg' draggable="false"/>
              <div className="projTextBox">
                 <h3 className="projHeader">
                     crypto canvas

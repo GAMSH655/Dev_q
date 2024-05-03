@@ -24,7 +24,7 @@
     letter-spacing: 2px
 }
 .contactme{
-    /* width: 250rem; */
+    text-transform: capitalize;
     background-color:#D3E97A;
     color: black;
     margin-top: 50px;
@@ -34,9 +34,14 @@
     padding: 10px;
     border-radius: 15px;
 }
+.plane{
+    padding: 5px;
+    background-color:#D3E97A;
+    color: black;
+}
+
 .contactBtn{
     background-color:black;
-    color: #D3E97A;
     margin-left: 10px;
     border: none;
     outline: none;
@@ -47,6 +52,9 @@
     border-radius: 50%;
     transition: .5s all ease-in;
 } 
+.icon{
+   background-color: black;
+}
 .contactBtn:hover{
     background-color: #D3E97A;
     color: black;
@@ -78,13 +86,12 @@
     }
     
 .contactme{
-    /* width: 250rem; */
     background-color:#D3E97A;
     color: black;
     margin-top: 50px;
     border: none;
     outline: none;
-    /* width: 100%; */
+    width: 150px;
     padding: 10px;
     border-radius: 15px;
 }
@@ -95,11 +102,9 @@
     border: none;
     outline: none;
     height: 40px;
-    /* width: 100%; */
-    pad: 10px;
     font-size: 1.2rem;
     border-radius: 10px;
-    margin: 10px;
+    margin-top: 45px;
 }
 .heroP{
     font-weight: bolder;
@@ -107,4 +112,9 @@
     text-transform: capitalize;
     font-family: sans-serif;
 }
+.btnCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

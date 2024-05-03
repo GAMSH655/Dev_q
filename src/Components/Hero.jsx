@@ -10,8 +10,9 @@ const Hero = () => {
              <h3 className="heroP">Hi ,i am</h3>
              <h3 className="heroP">abdulquadri shittu abolore ,</h3>
              <p className="heroinfo">A front-end developer passionate about building accessible and user friendly websites.</p>
-             <button className="contactme">contact me 
-             <i className="fa-solid fa-file icon"></i>
+            <div className="btnCont">
+            <button className="contactme">view cv 
+             <i class="fa-solid fa-paper-plane plane"></i>
               </button> 
              <button className='contactBtn'> 
              <a href="https://github.com/GAMSH655"> <i className="fa-brands fa-github icon"></i> </a></button>
@@ -19,6 +20,7 @@ const Hero = () => {
              <button className='contactBtn'>
              <a href="https://www.linkedin.com/in/abdulquadri-shittu-59480b262/" className='contctLink'><i className="fa-brands fa-linkedin icon"></i> </a>
              </button>
+            </div>
          </div>
          <img src={Prog} alt=""  draggable="false" className="heroImg"/>
     </div>
