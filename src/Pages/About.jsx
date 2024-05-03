@@ -14,7 +14,7 @@ const About = () => {
                I am a front-end developer based in Sydney. Has Mechanical Engineering background. 
                </h3>
             <p className="aboutP">
-            am a front-end developer based in Sydney looking for exciting opportunities. Has Mechanical Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to improve skill.
+            am a front-end developer looking for exciting opportunities. Has Computer Science background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs. While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to improve skill.
             </p>
             <button className="contactme">contact me 
              <i className="fa-solid fa-file icon"></i>
