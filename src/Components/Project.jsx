@@ -65,7 +65,7 @@ const Project = () => {
                      <a href="https://e-commerce-nine-delta-43.vercel.app/" className='prjLink'> live view  <i class="fa-solid fa-link icon"></i></a>
 
                      <a href="https://github.com/GAMSH655/E-commerce.git" className='prjLink'>repo link <i className="fa-brands fa-github icon"></i></a>
-                  </div>ss
+                  </div>s
               </div>
              </div>
          </div>
