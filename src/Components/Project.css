@@ -33,7 +33,8 @@
     text-align: justify;
 }
 .projImg{
-    width: 100%;
+    height: 300px;
+    width: 300px;
     background-color:#3b3131;
     padding: 30px;
 }
