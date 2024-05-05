@@ -40,7 +40,7 @@ const Project = () => {
                     crypto canvas
                 </h3>
                 <p className="projInf">
-                 Crypto-canvas as the name implies to display  nft-artwroks and the owner's image and price tag and it also display the price of nft artwroks  anytime it changes.This website was built with Html  for structuring and Css for the styling which also gives it the accessibillity to be fit across all gadgets and Javascript for functionallities , here are some of the implemented features.
+                 Crypto-canvas as the name implies to display  nft-artwroks and the owner's image and price tag and it also display the price of nft artwroks  anytime it changes.This project was built with Html  for structuring and Css for the styling which also gives it the accessibillity to be fit across all gadgets and Javascript for functionallities , here are some of the implemented features.
 
                  <p  className='pInf'> 📌. Integrated a Faqs section where user can easily get answers to their questions.</p>
                  <p  className='pInf'> 📌. Crafted a button in the header which makes navbar accessibile in the mobile view.</p>
@@ -61,8 +61,10 @@ const Project = () => {
                    Krib-Homes
                 </h3>
                 <p className="projInf">
-                amed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.
+                 Krib-homes is a website that is focused on real estate management , where buyers can easily get connect to their sellers  and also get to know the accomodation available around there locations, check out for the implemeted features.
                 </p>
+                  <p  className='pInf'> 📌. Dark and Light mode for reader visibillity.</p>
+                 <p  className='pInf'> 📌. Crafted a button in the header which makes navbar accessibile in the mobile view.</p>
                 <div className="bottomInfo">
                 <div className="linkCont">
                      <a href="https://e-commerce-nine-delta-43.vercel.app/" className='prjLink'> live view  <i class="fa-solid fa-link icon"></i></a>
@@ -72,24 +74,7 @@ const Project = () => {
               </div>
              </div>
          </div>
-         <div className="projBox1">
-             {/* <img src={Krib} alt=""  className='projImg' draggable="false"/> */}
-             {/* <div className="projTextBox">
-                <h3 className="projHeader">
-                    e-commerce
-                </h3>
-                <p className="projInf">
-                amed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.
-                </p>
-                <div className="bottomInfo">
-                  <div className="linkCont">
-                     <a href="https://e-commerce-nine-delta-43.vercel.app/" className='prjLink'> live view  <i class="fa-solid fa-link icon"></i></a>
-
-                     <a href="https://github.com/GAMSH655/E-commerce.git" className='prjLink'>repo link <i className="fa-brands fa-github icon"></i></a>
-                  </div>
-              </div>
-             </div> */}
-         </div>
+        
      </div>
       
       <div className="about">
