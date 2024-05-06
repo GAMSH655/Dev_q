@@ -17,7 +17,7 @@ const Header= () => {
        </h3>
         <div className="linkContainer">
         <NavLink  to="/" className="headerLink" >Home</NavLink>
-        <NavLink to="/about" className="headerLink">about</NavLink>
+        <NavLink to="/about" className="headerLink">About</NavLink>
         </div>
          <button className="openBtn" onClick={handleOpenNav}>
           {

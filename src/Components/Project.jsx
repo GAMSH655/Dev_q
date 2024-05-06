@@ -24,6 +24,7 @@ const Project = () => {
                 <p  className='pInf'> 📌Implemented star  rating functionallity  which allows users to rate the goods.</p>
                 <p className='pInf'> 📌Users can easily add to cart and delete from cart and keep track of the goods , by  implementing a react hook called useContext.</p>
                 <p className='pInf'> 📌 Users can easily route from page to another  implementing a react properties called react-router.</p>
+                <p  className='pInf'> 📌. Crafted a button in the header which makes navbar accessibile in the mobile view.</p>
                 <div className="bottomInfo">
                   <div className="linkCont">
                      <a href="https://e-commerce-nine-delta-43.vercel.app/" className='prjLink'> live view  <i className="fa-solid fa-link icon"></i></a>
@@ -41,7 +42,7 @@ const Project = () => {
                 </h3>
                 <p className="projInf">
                  Crypto-canvas as the name implies to display  nft-artwroks and the owner's image and price tag and it also display the price of nft artwroks  anytime it changes.This project was built with Html  for structuring and Css for the styling which also gives it the accessibillity to be fit across all gadgets and Javascript for functionallities , here are some of the implemented features.
-
+`
                  <p  className='pInf'> 📌. Integrated a Faqs section where user can easily get answers to their questions.</p>
                  <p  className='pInf'> 📌. Crafted a button in the header which makes navbar accessibile in the mobile view.</p>
                 </p>
@@ -77,7 +78,7 @@ const Project = () => {
         
      </div>
       
-      <div className="about">
+      {/* <div className="about">
          <h3 className="aboutM"> about  me</h3>
          <div className="aboutTextBox">
                <h3 className="abtH">
@@ -87,7 +88,7 @@ const Project = () => {
             am a front-end developer based in Sydney looking for exciting opportunities. Has Mechanical Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to improve skill.
             </p>
          </div>
-      </div>
+      </div> */}
    </div>
   )
 }

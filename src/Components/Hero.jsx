@@ -12,7 +12,7 @@ const Hero = () => {
              <p className="heroinfo">A front-end developer passionate about building accessible and user friendly websites.</p>
             <div className="btnCont">
             <button className="contactme">view cv 
-             <i class="fa-solid fa-paper-plane plane"></i>
+             <a href="../src/assets/Shittu-AbdulQuadri-Abolore.docx" blank="" ><i class="fa-solid fa-paper-plane plane"></i></a>
               </button> 
              <button className='contactBtn'> 
              <a href="https://github.com/GAMSH655"> <i className="fa-brands fa-github icon"></i> </a></button>

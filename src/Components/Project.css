@@ -29,14 +29,17 @@
     padding: 30px;
     font-family: Merriweather;
     width: 100%;
-    box-shadow: -2px 2px 2px 2px black;
+    /* box-shadow: -2px 2px 2px 2px black; */
     text-align: justify;
 }
 .projImg{
     height: 300px;
     width: 300px;
     background-color:#3b3131;
-    padding: 30px;
+   padding: 10px;
+   border-radius: 10px;
+   object-fit: contain;
+    
 }
 .projHeader{
     font-size: 2rem;
