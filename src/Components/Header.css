@@ -10,7 +10,6 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    
 }
 .logoText{
     font-size: 2rem;
@@ -62,6 +61,10 @@
         box-shadow: -2px 2px 2px 2px black;
         animation-name: slidingBar;
         animation-duration: .5s;
+    }
+    .headerContainer{
+        display: flex;
+        justify-content: space-between;
     }
     .mobniLink{
         text-decoration: none;
