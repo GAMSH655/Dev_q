@@ -108,6 +108,7 @@
         font-family: sans-serif;
         padding: 20px;
         text-align: center;
+       
     }
     .projP{
         color: #f6f6f6;
@@ -126,13 +127,11 @@
         font-family: Merriweather;
         box-shadow: -2px 2px 2px 2px black;
          padding: 10px;
-        /* width: 100%; */
     }
     .projImg{
         height: 300px;
         width: 300px;
         background-color:#3b3131;
-        /* padding: 30px; */
     }
     .projHeader{
         font-size: 2rem;
@@ -140,10 +139,18 @@
         padding: 10px;
         text-align: center;
     }
-    .projInf , .projB{
+    .projB{
+        padding: 15px;
+        line-height: 30px;
+        font-size: 1.2rem; 
+        text-wrap:stable;
+    }
+    .projInf{
         padding: 15px;
         line-height: 30px;
         font-size: 1.2rem;
+        text-wrap: wrap;
+        text-align: justify;
     }
     .linkCont{
         display: flex;
