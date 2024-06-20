@@ -10,14 +10,14 @@ const Project = () => {
     {
         projectImg:Marketplace,
         projectTitle: "nft market place",
-        projectAbout: "Nft market place is  web app built with Reactjs which consists of 4 pages that are responsive to all gadgets, below are the features in the web app ",
+        projectAbout: "Nft market place is  web app built with Reactjs which consists of 4 pages that are responsive to all gadgets,",
         porjectLiveLink: "https://meth-buj2.vercel.app/",
-        projectRepoLink: "https://github.com/GAMSH655/Meth.git"
+        projectRepoLink: "https://github.com/GAMSH655/Meth.git",
     },
     {
         projectImg:Finder,
         projectTitle: "crypto finder app",
-        projectAbout: "Nft market place is  web app built with Reactjs which consists of 4 pages that are responsive to all gadgets, below are the features in the web app ",
+        projectAbout: "Crypto finder app is a web app built with Reactjs ,it is built to dispaly crypto currencies prices in real time and and their logos by consuming an api from Coinstat",
         porjectLiveLink: "https://crypto-finder-app.netlify.app/",
         projectRepoLink: "https://github.com/GAMSH655/Crypto-finder-app.git"
     },
@@ -38,10 +38,6 @@ const Project = () => {
                  {projectInfo.projectTitle}
                </h3>
                <p className="projInf">{projectInfo.projectAbout}</p>
-               <p  className='pInf'> 📌Implemented star  rating functionallity  which allows users to rate the goods.</p>
-               <p className='pInf'> 📌Users can easily add to cart and delete from cart and keep track of the goods , by  implementing a react hook called useContext.</p>
-               <p className='pInf'> 📌 Users can easily route from page to another  implementing a react properties called react-router.</p>
-               <p  className='pInf'> 📌. Crafted a button in the header which makes navbar accessibile in the mobile view.</p>
                <div className="bottomInfo">
                  <div className="linkCont">
                     <a href={projectInfo.porjectLiveLink} className='prjLink'> live view  <i className="fa-solid fa-link icon"></i></a>
