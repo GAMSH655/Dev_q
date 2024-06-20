@@ -4,6 +4,7 @@ import Ecom from "../assets/ecom.png"
 import Crypto from "../assets/Crypto.png"
 import Krib from "../assets/Krib.png"
 import Marketplace from "../assets/Marketplace.png"
+import Finder from "../assets/CryptoFinder.png"
 const Project = () => {
    const projectCollection=[
     {
@@ -12,7 +13,14 @@ const Project = () => {
         projectAbout: "Nft market place is  web app built with Reactjs which consists of 4 pages that are responsive to all gadgets, below are the features in the web app ",
         porjectLiveLink: "https://meth-buj2.vercel.app/",
         projectRepoLink: "https://github.com/GAMSH655/Meth.git"
-    }
+    },
+    {
+        projectImg:Finder,
+        projectTitle: "crypto finder app",
+        projectAbout: "Nft market place is  web app built with Reactjs which consists of 4 pages that are responsive to all gadgets, below are the features in the web app ",
+        porjectLiveLink: "https://meth-buj2.vercel.app/",
+        projectRepoLink: "https://github.com/GAMSH655/Meth.git"
+    },
    ]
   return (
     <div className='projectParentcontainer'>
