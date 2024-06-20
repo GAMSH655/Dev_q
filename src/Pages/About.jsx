@@ -10,9 +10,6 @@ const About = () => {
         <div className="about">
          <h3 className="aboutM"> about  me</h3>
          <div className="aboutTextBox">
-               {/* <h3 className="abtH">
-               I am a front-end developer . Has Mechanical Engineering background. 
-               </h3> */}
             <p className="aboutP">
             I'm a front-end developer looking for exciting opportunities. Has Computer Science background. Likes to focus on accessibility when developing. Passionate and curious about solving problems.  I’m  proficient in building responsive websites and applications that seamlessly adapt across all devices and browsers, ensuring a consistent and delightful user experience , i'm constantly expanding my skillset by staying updated on the latest front-end trends and technologies. I actively participate in the developer community and enjoy contributing to open-source projects whenever possible  , While I am not programming, I enjoy playing football, photography and reading documentations. 
             </p>

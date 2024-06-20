@@ -10,10 +10,10 @@ const Connect = () => {
             </h3>
             <div className="iconDiv">
             <a href="https://github.com/GAMSH655" class='contactLink'> <i className="fa-brands fa-github  fa-2xl contact-icon"></i></a>
-            <a href="https://www.linkedin.com/in/abdulquadri-shittu-59480b262/" class='contactLink'> <i className="fa-brands fa-linkedin  fa-2xl contact-icon"></i></a>
-            <a href="https://twitter.com/BIG_DEV360" class='contactLink'> <i class="fa-brands fa-x-twitter fa-2xl contact-icon"></i></a>
+            <a href="https://www.linkedin.com/in/abdulquadri-shittu-59480b262/" className='contactLink'> <i className="fa-brands fa-linkedin  fa-2xl contact-icon"></i></a>
+            <a href="https://twitter.com/BIG_DEV360" className='contactLink'> <i className="fa-brands fa-x-twitter fa-2xl contact-icon"></i></a>
             <
-                a href="https://mail.google.com/mail/u/0/?hl=sv#inbox?compose=new" class='contactLink'> <i class="fa-brands fa-x-twitter fa-2xl contact-icon"></i></a>
+                a href="https://mail.google.com/mail/u/0/?hl=sv#inbox?compose=new" class='contactLink'> <i className="fa-brands fa-x-twitter fa-2xl contact-icon"></i></a>
             </div>
         </div>
          <form action="">
