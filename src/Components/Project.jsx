@@ -18,8 +18,8 @@ const Project = () => {
         projectImg:Finder,
         projectTitle: "crypto finder app",
         projectAbout: "Nft market place is  web app built with Reactjs which consists of 4 pages that are responsive to all gadgets, below are the features in the web app ",
-        porjectLiveLink: "https://meth-buj2.vercel.app/",
-        projectRepoLink: "https://github.com/GAMSH655/Meth.git"
+        porjectLiveLink: "https://crypto-finder-app.netlify.app/",
+        projectRepoLink: "https://github.com/GAMSH655/Crypto-finder-app.git"
     },
    ]
   return (
