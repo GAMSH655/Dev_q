@@ -5,6 +5,7 @@ import Crypto from "../assets/Crypto.png"
 import Krib from "../assets/Krib.png"
 import Marketplace from "../assets/Marketplace.png"
 import Finder from "../assets/CryptoFinder.png"
+import Bistro from "../assets/Bistro.png"
 const Project = () => {
    const projectCollection=[
     {
@@ -17,9 +18,16 @@ const Project = () => {
     {
         projectImg:Finder,
         projectTitle: "crypto finder app",
-        projectAbout: "Crypto finder app is a web app built with Reactjs ,it is built to dispaly crypto currencies prices in real time and and their logos by consuming an api from Coinstat",
+        projectAbout: "Crypto finder app is a web app built with Reactjs ,it is built to display crypto currencies prices in real time and and their logos by consuming an api from Coinstat",
         porjectLiveLink: "https://crypto-finder-app.netlify.app/",
         projectRepoLink: "https://github.com/GAMSH655/Crypto-finder-app.git"
+    },
+    {
+        projectImg:Bistro,
+        projectTitle: "bistro-delight",
+        projectAbout: "Bistro-delight is a single page application built with  Reactjs and making it fit  across all user's screeens , it's built to connect both the food cosnumer and cook and user can get to view available foods in kitchen",
+        porjectLiveLink: "https://bistro-delight.netlify.app/",
+        projectRepoLink: "https://github.com/GAMSH655/BISTRO-DELIGHT.git"
     },
    ]
   return (
