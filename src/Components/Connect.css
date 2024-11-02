@@ -1,91 +1,119 @@
-.contactCont{
-    padding:10px;
-}
-.let{
-    padding: 10px;
-    text-transform: uppercase;
-    font-size: 3rem;
-}
-.contact-icon{
-    color: #D3E97A;
-    margin: 15px;
-    padding-top: 15px;
-}
-.hello{
-    margin: 15px;
-    padding-top: 15px;
-}
-.ContParentContainer{
+/* Container styling */
+.ContParentContainer {
     display: flex;
-    justify-content: space-evenly;
-}
-form{
-    width: 50%;
-}
-.input{
-    /* width: 102vh;
-    padding: 10px;
-    outline: none; */
-    width: 100%;
-}
-textarea{
-    /* resize: none;
-    width: 102vh;
-    height: 50vh;
-    margin-top: 20px;
-    margin-left: 20px;
-    padding: 10px; */
-    width: 100%;
-}
-.inputname{
-    font-weight: normal;
-    text-transform: capitalize;
-    font-size: medium;
-}
-
-.nameInput{
-    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
   }
-/* form {
-    margin: 20px;
-} */
-@media only screen and (max-width:768px) {
-    .let{
-        padding: 10px;
-        text-transform: uppercase;
-        font-size: 1.5rem;
+  
+  /* Contact information styling */
+  .contactCont {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+  }
+  
+  .let, .hello {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .iconDiv {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .contactLink {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contactLink:hover {
+    color: #007BFF;
+  }
+  
+  /* Form styling */
+  form {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    padding: 20px;
+  
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nameInput {
+    margin-bottom: 15px;
+  }
+  
+  .inputname {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .input, .messageInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .input:focus, .messageInput:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .messageInput {
+    height: 100px;
+    resize: none;
+  }
+ 
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .ContParentContainer {
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
     }
-    .contact-icon{
-        color: #D3E97A;
-        /* margin: 15px;
-        padding-top: 15px; */
+  
+    .contactCont, form {
+      max-width: 100%;
     }
-    .ContParentContainer{
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+  
+    .let, .hello {
+      font-size: 16px;
     }
-    .input{
-        width:100%;
-        padding: 10px;
-        outline: none;
+  
+    .input, .messageInput {
+      padding: 8px;
+      font-size: 15px;
     }
-    textarea{
-        resize: none;
-        width:100%;
-        height: 50vh;
-        margin-top: 20px;
-        padding: 10px;
+  }
+  
+  @media (max-width: 480px) {
+    .let, .hello {
+      font-size: 14px;
     }
-    .nameInput{
-      margin: 10px;
+  
+    .input, .messageInput {
+      padding: 7px;
+      font-size: 14px;
     }
-    .ContParentContainer{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+  
+    .messageInput {
+      height: 80px;
     }
-    form{
-        width: 100%;
-    }
-}
+  }
+  
