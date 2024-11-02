@@ -1,15 +1,32 @@
-.imgCont{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 2px solid white;
-}
+
 .portImg{
     padding: 20px;
      border-radius: 5rem;
 }
+.aboutTextBox{
+    display: flex;
+    justify-content:space-evenly;
+  
+}
+.sideDiv{
+    margin-top: 60px;
+}
+.aboutP{
+    line-height: 50px;
+    line-break: auto;
+}
+.aboutM{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+
+}
+
 @media only screen and (max-width:768px) {
     .portImg{
       width: 100%;
+    }
+    .aboutP{
+        line-height: 40px;
+        line-break: auto;
     }
 }

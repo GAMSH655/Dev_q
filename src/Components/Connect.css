@@ -9,6 +9,28 @@
     margin: 0 auto;
   }
   
+  .submitButton {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .submitButton:focus {
+    outline: none;
+    background-color: #004085;
+  }
   /* Contact information styling */
   .contactCont {
     flex: 1;
@@ -18,14 +40,13 @@
   
   .let, .hello {
     font-size: 18px;
-    color: #333;
-    margin: 5px 0;
+    margin:15px;
   }
   
   .iconDiv {
     display: flex;
     gap: 15px;
-    margin-top: 10px;
+    margin: 10px;
   }
   
   .contactLink {
@@ -44,7 +65,6 @@
     min-width: 280px;
     max-width: 400px;
     padding: 20px;
-  
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -64,9 +84,10 @@
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    /* border: 1px solid #ddd; */
+    outline: none;
     border-radius: 4px;
     box-sizing: border-box;
+    background-color: transparent;
   }
   
   .input:focus, .messageInput:focus {
@@ -87,7 +108,12 @@
       align-items: center;
       padding: 15px;
     }
-  
+    
+    .submitButton {
+        padding: 10px;
+        font-size: 15px;
+      }
+
     .contactCont, form {
       max-width: 100%;
     }
@@ -116,4 +142,7 @@
       height: 80px;
     }
   }
+ 
+
+
   

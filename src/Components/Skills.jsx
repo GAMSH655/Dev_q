@@ -13,8 +13,8 @@ const Skills = () => {
         <div className='skillSection'>
         <h3 className="capabillities"> my capabillities</h3>
         <div className="skill">
-             <img src={Html} alt=""  />
-             <img src={css} alt=""  />
+             <img src={Html} alt="" className='skill_img' />
+             <img src={css} alt=""  className='skill_img'/>
              <img src={js} alt="" className='skill_img' />
              <img src={Ts} alt="" className='skill_img' />
              <img src={Ret} alt="" className='skill_img'/>

@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:#0A0A0A;
-    color: whitesmoke;
+    color: white;
     font-family: fira sans;
+}
+body{
+    background-color: black;
 }
 .headerContainer{
     display: flex;

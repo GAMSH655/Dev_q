@@ -27,7 +27,7 @@ const Connect = () => {
     <form action="">
       <div class="nameInput">
         <h3 className="inputname">Name</h3>
-        <input type="text" class="input" />
+        <input type="text" className="input" />
       </div>
       <div className="nameInput">
         <h3 className="inputname">Email</h3>
@@ -35,9 +35,10 @@ const Connect = () => {
       </div>
       <div className="nameInput">
         <h3 className="inputname">Number</h3>
-        <input type="number" class="input" />
+        <input type="number" className="input" />
       </div>
       <textarea placeholder="Enter your message" className="messageInput"></textarea>
+      <button type="submit" className="submitButton">Submit</button>
     </form>
   </div>
   

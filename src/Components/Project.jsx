@@ -38,37 +38,21 @@ const Project = () => {
     </p>
      <div className="projectContainer">
         {
-        projectCollection.map((projectInfo, index)=>{
-            return         <div className="projBox1">
-            <img src={projectInfo.projectImg} alt=""  className='projImg' draggable="false"/>
-            <div className="projTextBox">
-               <h3 className="projHeader">
-                 {projectInfo.projectTitle}
-               </h3>
-               <p className="projInf">{projectInfo.projectAbout}</p>
-               <div className="bottomInfo">
-                 <div className="linkCont">
-                    <a href={projectInfo.porjectLiveLink} className='prjLink'> live view  <i className="fa-solid fa-link icon"></i></a>
-                    <a href={projectInfo.projectRepoLink} className='prjLink'>repo link <i className="fa-brands fa-github icon"></i></a>
-                 </div>
+        projectCollection.map(({projectImg, projectAbout , porjectLiveLink , projectRepoLink , projectTitle}, index)=>{
+            return  <div className="projBox">
+               <img src={projectImg} alt="Project Image" class="projImg" />
+               <h3 className="projHeader">{projectTitle}</h3>
+               <p className="projInf">{projectAbout}</p>
+               <div className="linkCont">
+               <a href= {porjectLiveLink} className="prjLink">
+                 <i className="fa-solid fa-link"></i></a>
+               <a href={projectRepoLink} className="prjLink"> <i className="fa-brands fa-square-github"></i></a>
+               </div>
              </div>
-            </div>
-        </div>
         })
         }
      </div>
       
-      {/* <div className="about">
-         <h3 className="aboutM"> about  me</h3>
-         <div className="aboutTextBox">
-               <h3 className="abtH">
-               I am a front-end developer based in Sydney. Has Mechanical Engineering background. 
-               </h3>
-            <p className="aboutP">
-            am a front-end developer based in Sydney looking for exciting opportunities. Has Mechanical Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to improve skill.
-            </p>
-         </div>
-      </div> */}
    </div>
   )
 }
